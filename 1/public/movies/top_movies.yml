@@ -1,0 +1,21 @@
+raw: 0.9 
+endpoint: GET
+metadata:
+  title: Top Movies
+  description: Get top movies
+  tags:
+    - movies
+code: rql
+codeFile: movies.rql
+declaration: fetch_top_movies
+outputType:  "collection(
+    record(
+        title: string,
+        year: int,
+        `cast`: collection(string),
+        genres: collection(string)))"
+format: json
+security:
+  public: true
+computeClass: normal
+enabled: true
