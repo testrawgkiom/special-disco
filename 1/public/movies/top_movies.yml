@@ -16,6 +16,6 @@ outputType:  "collection(
         genres: collection(string)))"
 format: json
 security:
-  public: true
+  public: false
 computeClass: normal
 enabled: true
