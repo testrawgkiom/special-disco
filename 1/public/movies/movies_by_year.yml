@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://rawlabs-public-test-data.s3.eu-west-1.amazonaws.com/endpoint-schemaV0.9.json
+raw: 0.9 
+endpoint: GET
+metadata:
+  title: Movies By Year
+  description: Movies By Year
+  tags:
+    - movies
+code: rql
+codeFile: movies.rql
+declaration: search_by_year
+outputType:  "collection(
+    record(
+        title: string,
+        year: int,
+        `cast`: collection(string),
+        genres: collection(string)))"
+format: json
+security:
+  public: false
+computeClass: normal
+enabled: true
