@@ -5,6 +5,6 @@ search_by_year(year: int) := {
 }
 
 fetch_top_movies() := {
-    select * from movies m limit 5
+    select * from movies m limit 8
 }
 
