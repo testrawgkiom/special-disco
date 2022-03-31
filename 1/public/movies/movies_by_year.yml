@@ -2,7 +2,7 @@
 raw: 0.9 
 endpoint: GET
 metadata:
-  title: Movies By Year
+  title: Movies per Year
   description: Movies By Year
   tags:
     - movies
