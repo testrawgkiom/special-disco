@@ -16,4 +16,6 @@ security:
     - movies
     - cinema
 computeClass: normal
+computeLimitSeconds: 120
+refreshSeconds: 120
 enabled: true
