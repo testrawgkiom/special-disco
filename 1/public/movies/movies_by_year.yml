@@ -11,6 +11,9 @@ codeFile: movies.rql
 declaration: search_by_year
 format: json
 security:
-  public: true
+  public: false
+  scopes:
+    - movies
+    - cinema
 computeClass: normal
 enabled: true
