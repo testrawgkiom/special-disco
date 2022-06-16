@@ -17,3 +17,5 @@ computeClass: normal
 computeLimitSeconds: 120
 refreshSeconds: 120
 enabled: true
+buildOnPublish: true
+refreshCron: "* */30 * * * ?"
