@@ -13,6 +13,7 @@ security:
   public: false
   scopes:
     - cinema
+    - admin
 computeClass: normal
 computeLimitSeconds: 120
 refreshSeconds: 120
