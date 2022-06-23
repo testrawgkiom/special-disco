@@ -15,6 +15,7 @@ security:
   scopes:
     - movies
     - cinema
+    - admin
 computeClass: normal
 computeLimitSeconds: 120
 refreshSeconds: 120
