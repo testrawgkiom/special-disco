@@ -18,5 +18,5 @@ security:
     - admin
 computeClass: normal
 computeLimitSeconds: 260
-refreshSeconds: 240
+refreshSeconds: 260
 enabled: true
