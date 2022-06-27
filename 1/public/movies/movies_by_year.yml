@@ -17,6 +17,6 @@ security:
     - cinema
     - admin
 computeClass: normal
-computeLimitSeconds: 120
-refreshSeconds: 120
+computeLimitSeconds: 240
+refreshSeconds: 180
 enabled: true
