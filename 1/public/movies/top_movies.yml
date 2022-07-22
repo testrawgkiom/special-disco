@@ -18,5 +18,5 @@ computeClass: normal
 computeLimitSeconds: 240
 refreshSeconds: 120
 enabled: true
-buildOnPublish: true
-refreshCron: "* */45 * * * ?"
+# buildOnPublish: true
+# refreshCron: "* */45 * * * ?"
