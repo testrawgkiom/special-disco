@@ -9,7 +9,7 @@ code: rql
 codeFile: movies.rql
 declaration: fetch_top_movies
 format: json
-security:
+seasdcurity:
   public: false
   scopes:
     - cinema
