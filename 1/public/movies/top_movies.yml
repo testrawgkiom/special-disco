@@ -1,6 +1,6 @@
 raw: 0.9 
 endpoint: GET
-metadata:
+1metadata:
   title: Top Movies
   description: Get top movies
   tags:
