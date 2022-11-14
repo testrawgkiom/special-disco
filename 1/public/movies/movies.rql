@@ -1,4 +1,4 @@
-movies := read("https://raw.githubusercontent.com/prust/wikipedia-movie-data/master/movies.json",  cache := interval "1 day");
+movies := read("https://raw.githubusercontent.com/prust/wikipedia-movie-data/master/movies.json",  cache := interval "10 days");
 
 search_by_year(year: int) := {
     select * from movies m where m.year = year
