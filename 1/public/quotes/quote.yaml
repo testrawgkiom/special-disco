@@ -1,0 +1,17 @@
+raw: 0.9 
+endpoint: GET
+metadata:
+  title: Quote of the day 
+  description: Get an inspirational quote to help endure the day
+  tags:
+    -quotes 
+code: snapi
+codeFile: quotes.snapi
+declaration: main
+format: json
+security:
+  public: true
+computeClass: normal
+computeLimitSeconds: 240
+expireSeconds: 120
+enabled: true

@@ -1,0 +1,6 @@
+main() = 
+  let 
+    quote = Json.InferAndRead("https://zenquotes.io/api/random"),
+    res = Collection.Transform(quote, e -> {e.q, e.a})
+  in  
+    res
