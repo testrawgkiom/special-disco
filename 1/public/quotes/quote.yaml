@@ -4,7 +4,7 @@ metadata:
   title: Quote of the day 
   description: Get an inspirational quote to help endure the day
   tags:
-    -quotes 
+    - quotes 
 code: snapi
 codeFile: quotes.snapi
 declaration: main
