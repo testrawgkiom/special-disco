@@ -13,5 +13,5 @@ security:
   public: true
 computeClass: normal
 computeLimitSeconds: 240
-expireSeconds: 120
+expireSeconds: 60
 enabled: true
