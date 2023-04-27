@@ -19,4 +19,4 @@ security:
 computeClass: normal
 computeLimitSeconds: 260
 refreshSeconds: 260
-enabled: true
+enabled: false
