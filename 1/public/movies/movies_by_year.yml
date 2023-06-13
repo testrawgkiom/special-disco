@@ -6,8 +6,8 @@ metadata:
   description: Movies By Year
   tags:
     - movies
-code: rql
-codeFile: movies.rql
+code: snapi
+codeFile: movies.snapi
 declaration: search_by_year
 format: json
 security:

@@ -5,8 +5,8 @@ metadata:
   description: Get top movies
   tags:
     - movies
-code: rql
-codeFile: movies.rql
+code: snapi
+codeFile: movies.snapi
 declaration: fetch_top_movies
 format: json
 security:
