@@ -12,6 +12,6 @@ format: json
 security:
   public: true
 computeClass: normal
-computeLimitSeconds: 130
-expireSeconds: 60
+computeLimitSeconds: 140
+expireSeconds: 120
 enabled: true
